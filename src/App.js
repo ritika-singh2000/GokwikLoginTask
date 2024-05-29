@@ -1,21 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./styles/styles.css";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Edit</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outer-container">
+      <div className="inner-container">
+        <div className="footer">
+          Need help? <span className="contact-link">Contact Us</span>
+        </div>
+      </div>
+      <div className="login-container">
+        <Login />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,65 @@
+.login-container {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  transform: translate(0, -50%);
+  width: 20%;
+  height: 85vh;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+}
+
+.login-heading {
+  color: #004996;
+}
+
+.input-label {
+  color: rgb(116, 114, 114);
+  font-size: 0.8em;
+  margin-top: 30px;
+}
+
+.error-message {
+  color: red;
+}
+
+.input-box {
+  border: none;
+  border-bottom: 1px solid rgb(116, 114, 114);
+  outline: none;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.login-box .google-signin {
+  background-color: white;
+  color: #4285f4;
+  border: 1px solid #4285f4;
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    width: 80vw;
+    height: 80vh;
+    padding: 15px 15px;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
