@@ -39,10 +39,9 @@ function Login() {
 
   const handleNextClick = () => {
     if (isValid) {
-      alert(
-        "Welcome aboard! 🚀 You're all set to explore. Thanks for signing in!"
-      );
+      alert("All good ! 🚀 You're all set to explore. Thanks for signing in!");
       setInputValue("");
+      setIsValid(false);
     } else {
       alert("Please fix the errors before proceeding.");
     }
@@ -63,8 +62,10 @@ function Login() {
       <button onClick={handleNextClick} disabled={!isValid}>
         Next
       </button>
-      <div className="">
-        <p>or</p>
+      <div class="divider">
+        <span class="line"></span>
+        <p class="or">or</p>
+        <span class="line"></span>
       </div>
       <button className="google-signin">Sign in with Google</button>
     </div>
