@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GokwikLoginTask/static/css/main.84f6bccf.css",
+    "main.js": "/GokwikLoginTask/static/js/main.6511c85a.js",
+    "static/js/453.152957d5.chunk.js": "/GokwikLoginTask/static/js/453.152957d5.chunk.js",
+    "index.html": "/GokwikLoginTask/index.html",
+    "main.84f6bccf.css.map": "/GokwikLoginTask/static/css/main.84f6bccf.css.map",
+    "main.6511c85a.js.map": "/GokwikLoginTask/static/js/main.6511c85a.js.map",
+    "453.152957d5.chunk.js.map": "/GokwikLoginTask/static/js/453.152957d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84f6bccf.css",
+    "static/js/main.6511c85a.js"
+  ]
+}
