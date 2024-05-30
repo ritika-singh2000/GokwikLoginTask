@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/login.css";
+import gimages from "../assets/googleimage.png";
 
 function Login() {
   const [inputValue, setInputValue] = useState("");
@@ -48,7 +49,7 @@ function Login() {
   };
 
   return (
-    <div className="login-box">
+    <>
       <h2 className="login-heading">Login to Dashboard</h2>
       <div className="input-label">Email or Mobile Number</div>
       <input
@@ -67,8 +68,12 @@ function Login() {
         <p class="or">or</p>
         <span class="line"></span>
       </div>
-      <button className="google-signin">Sign in with Google</button>
-    </div>
+      {/* No Functionaly for Google Signin - only UI*/}
+      <button className="google-signin">
+        <img src={gimages} width={35} />
+        <p>Sign in with Google</p>
+      </button>
+    </>
   );
 }
 

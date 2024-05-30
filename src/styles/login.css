@@ -9,6 +9,8 @@
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .login-heading {
@@ -35,7 +37,7 @@
   font-size: 1.1em;
 }
 
-.login-box button {
+.login-container button {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
@@ -43,17 +45,26 @@
   border-radius: 4px;
   color: white;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 1em;
 }
 
-.login-box .google-signin {
-  background-color: white;
-  color: #4285f4;
-  border: 1px solid #4285f4;
+.login-container .google-signin {
+  border: 1px solid #3e7de3;
+  padding: 0 5px;
+  width: fit-content;
+  align-self: center;
+  color: white;
+  background-color: #3e7de3;
+  display: flex;
+  gap: 10px;
 }
 
-.login-box button:disabled {
+.login-container .google-signin img {
+  align-self: center;
+}
+
+.login-container button:disabled {
   background-color: rgb(191, 189, 189);
   cursor: not-allowed;
 }
@@ -63,12 +74,12 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .line {
   flex: 1;
-  border-bottom: 1px solid rgb(116, 114, 114);
+  border-bottom: 1px solid rgb(217, 214, 214);
   margin: 0 10px;
 }
 
