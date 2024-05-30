@@ -27,6 +27,10 @@ The page will reload when you make changes.\
 
 ![image](https://github.com/ritika-singh2000/GokwikLoginTask/assets/56353471/cc0b54bb-8286-4e4f-880c-b08085f462e8)
 
+# Mobile View
+![image](https://github.com/ritika-singh2000/GokwikLoginTask/assets/56353471/c3b887fb-a85e-4433-acca-d0a305719e20)
+
+
 
 
 
