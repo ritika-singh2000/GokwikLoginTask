@@ -34,7 +34,6 @@
   width: 90%;
   padding: 15px 8px 1px 0px;
   margin: 10px 0;
-  font-size: 1.1em;
 }
 
 .login-container button {
@@ -46,7 +45,6 @@
   color: white;
   cursor: pointer;
   margin-top: 15px;
-  font-size: 1em;
 }
 
 .login-container .google-signin {
@@ -85,7 +83,6 @@
 
 .or {
   padding: 0 10px;
-  font-size: 1em;
   color: black;
 }
 
